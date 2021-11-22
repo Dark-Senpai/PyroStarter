@@ -1,4 +1,4 @@
-# PyroStartet 
+# PyroStarter
 
 ```
 • Simple 
