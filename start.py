@@ -18,7 +18,7 @@ code = Client(
 # the start message code 
 @code.on_message(filters.command(["start"]))
 async def start_message(client, message):
-  start = f"`Hello {message.from_user.username}-kun` \n\nI am a active! 😁😁"
+  start = f"`Hello {message.from_user.username}-kun` \n\nI am active! 😁😁"
   message.send_message(
     text=start,
     quote=False,
