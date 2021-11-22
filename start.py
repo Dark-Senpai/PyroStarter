@@ -25,7 +25,6 @@ async def start_message(client, message):
     reply_markup=InlineKeyboardMarkup(
       [
         [
-          
           InlineKeyboardButton("Dev", url="https://t.me/Parth_Senpai")
         ],
       ],
