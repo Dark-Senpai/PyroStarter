@@ -18,15 +18,14 @@ code = Client(
 # the start message code 
 @code.on_message(filters.command(["start"]))
 async def start_message(client, message):
-  start = f"`Hello {message.from_user.username}-kun` \n\nI am active! 😁😁"
+  start = f"`Hello {message.from_user.username}-kun` \n\nI am active! ЁЯШБЁЯШБ"
   message.send_message(
     text=start,
     quote=False,
     reply_markup=InlineKeyboardMarkup(
       [
         [
-          InlineKeyboardButton("Dev", url="https://t.me/Parth_Senpai")
-        ],
+          InlineKeyboardButton("Network", url="https://t.me/StrawHat_Network")],
       ],
-    ),
+    )
   )
